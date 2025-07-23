@@ -10,7 +10,6 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.taskmaster.app.ui.navigation.TaskMasterNavigation
 import com.taskmaster.app.ui.screens.auth.AuthScreen
 import com.taskmaster.app.ui.theme.TaskMasterTheme
@@ -20,13 +19,7 @@ class MainActivity : ComponentActivity() {
     private val authViewModel: AuthViewModel by viewModels()
     
     override fun onCreate(savedInstanceState: Bundle?) {
-        val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
-        
-        // Keep splash screen visible while loading
-        splashScreen.setKeepOnScreenCondition {
-            authViewModel.isLoading.value
-        }
         
         setContent {
             TaskMasterTheme {

@@ -2,9 +2,10 @@
 <resources>
     <!-- Splash screen theme -->
     <style name="Theme.TaskMaster.Splash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@color/purple_700</item>
-        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
-        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/splash_icon_background</item>
         <item name="postSplashScreenTheme">@style/Theme.TaskMaster</item>
     </style>
     
