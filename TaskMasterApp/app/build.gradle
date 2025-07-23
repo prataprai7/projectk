@@ -2,7 +2,6 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'com.google.gms.google-services'
-    id 'kotlin-kapt'
 }
 
 android {
@@ -81,8 +80,8 @@ dependencies {
     // Splash Screen
     implementation 'androidx.core:core-splashscreen:1.0.1'
     
-    // Additional animation support
-    implementation 'androidx.compose.animation:animation:1.5.8'
+    // Additional animation support (using BOM version)
+    implementation 'androidx.compose.animation:animation'
     
     // Testing
     testImplementation 'junit:junit:4.13.2'
