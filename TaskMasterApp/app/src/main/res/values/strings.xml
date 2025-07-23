@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">TaskMaster</string>
+    <string name="welcome_message">Welcome to TaskMaster</string>
+    <string name="sign_in_subtitle">Sign in to continue</string>
+    <string name="create_account_subtitle">Create your account</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+    <string name="dont_have_account">Don\'t have an account? Sign up</string>
+    <string name="already_have_account">Already have an account? Sign in</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_add_task">Add Task</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Home Screen -->
+    <string name="good_morning">Good Morning!</string>
+    <string name="good_afternoon">Good Afternoon!</string>
+    <string name="good_evening">Good Evening!</string>
+    <string name="pending_tasks_count">You have %d pending tasks</string>
+    
+    <!-- Task Management -->
+    <string name="new_task">New Task</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_description">Description (Optional)</string>
+    <string name="priority_level">Priority Level</string>
+    <string name="category">Category</string>
+    <string name="due_date">Due Date (Optional)</string>
+    <string name="create_task_button">Create Task</string>
+    <string name="cancel_button">Cancel</string>
+    
+    <!-- Categories -->
+    <string name="category_personal">Personal</string>
+    <string name="category_work">Work</string>
+    <string name="category_health">Health</string>
+    <string name="category_education">Education</string>
+    <string name="category_finance">Finance</string>
+    <string name="category_shopping">Shopping</string>
+    <string name="category_travel">Travel</string>
+    <string name="category_other">Other</string>
+    
+    <!-- Priorities -->
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+    <string name="priority_urgent">Urgent</string>
+    
+    <!-- Profile -->
+    <string name="your_progress">Your Progress</string>
+    <string name="tasks_created">Tasks Created</string>
+    <string name="completed">Completed</string>
+    <string name="streak_days">Streak Days</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_out_message">Are you sure you want to sign out? You can always sign back in later.</string>
+    
+    <!-- Error Messages -->
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_weak_password">Password should be at least 6 characters</string>
+    <string name="error_passwords_dont_match">Passwords don\'t match</string>
+    <string name="error_network">Please check your internet connection</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+</resources>
